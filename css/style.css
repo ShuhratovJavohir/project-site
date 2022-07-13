@@ -32,7 +32,7 @@ h6 {
 /* header =========
 =================== */
 header {
-  background: #0096db;
+  background: #0071a5;
 }
 
 .header__content {
@@ -48,7 +48,7 @@ header {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 40px;
-  font-size: 36px;
+  font-size: 34px;
 }
 
 .header__subtitle {
@@ -57,7 +57,7 @@ header {
 }
 
 .header__navbar {
-  background: #038ece;
+  background: #015d88;
 }
 
 /* header \\\\\\\\\\
@@ -93,7 +93,8 @@ nav {
 ================== */
 main {
   color: rgb(105, 105, 105);
-  font-size: 20px;
+  font-size: 16px;
+  /* font-size: 20px; */
   padding: 20px;
 }
 
@@ -110,15 +111,15 @@ main {
 
 /* ======================================== */
 
-/* about__project ==========
+/* about__index ==========
 ============================ */
-.about__project {
+.about__index {
   color: inherit;
   margin: 20px 0;
   text-align: justify;
 }
 
-.task__project > li {
+.task__index > li {
   margin: 30px 0;
   text-align: justify;
 }
@@ -132,8 +133,8 @@ main {
 }
 
 .team__photo > img {
-  width: 200px;
-  height: 270px;
+  width: 180px;
+  height: 220px;
 }
 
 .about__team {
@@ -166,10 +167,10 @@ main {
   .nav__link {
     font-size: 14px;
   }
-  .about__project {
+  .about__index {
     font-size: 14px;
   }
-  .task__project {
+  .task__index {
     font-size: 14px;
   }
   .team {
@@ -179,6 +180,9 @@ main {
   }
   .team > h1 {
     font-size: 16px;
+  }
+  .team__photo > img {
+    width: 200px;
   }
 }
 
@@ -198,10 +202,10 @@ main {
   .nav__link {
     font-size: 14px;
   }
-  .about__project {
+  .about__index {
     font-size: 14px;
   }
-  .task__project {
+  .task__index {
     font-size: 14px;
   }
   .team {
