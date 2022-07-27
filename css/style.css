@@ -24,6 +24,25 @@ h6 {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.d-flex-j-c {
+  display: flex;
+  justify-content: center;
+}
+
+.travle__img__2 {
+  width: 400px;
+  margin: 15px auto;
+}
+
+.travle__img__3 {
+  width: 700px;
+  margin: 15px auto;
+}
+
+.m-30 {
+  margin: 15px 0;
+}
 /* defalut \\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\ */
 
@@ -143,6 +162,21 @@ main {
 
 .about__team > h1 {
   padding: 20px 0 10px 0;
+}
+
+.travle__img {
+  width: 700px;
+  display: flex;
+  margin: 30px auto;
+}
+
+.travle-img-2 {
+  width: 400px;
+  margin: 30px 15px;
+}
+
+.travle__subtitle {
+  text-align: center;
 }
 
 @media (min-width: 700px) and (max-width: 991px) {
