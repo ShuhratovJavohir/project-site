@@ -228,6 +228,21 @@ main {
   }
 
   .team__block {
+    width: 300px;
+  }
+
+  .team__block > h3 {
+    font-size: 16px;
+  }
+  .team__block__inner__info > h3 {
+    font-size: 16px;
+  }
+
+  .team__block__inner__info > P {
+    font-size: 16px;
+  }
+
+  .team__block {
     margin: 15px auto;
     text-align: center;
   }
@@ -253,8 +268,8 @@ main {
 
 @media (max-width: 767px) {
   .team__block__inner > img {
-    width: 130px;
-    height: 150px;
+    width: 150px;
+    height: 170px;
   }
   .travel__img-2 {
     width: 250px;
