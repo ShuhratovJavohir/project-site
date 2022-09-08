@@ -39,6 +39,32 @@ header {
   background: #0071a5;
 }
 
+.languages {
+  display: flex;
+  justify-content: right;
+  margin: 0;
+}
+
+.languages__li {
+  list-style-type: none;
+  margin: 15px 15px;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.languages__li:hover {
+  opacity: 1;
+}
+
+.languages__li__active {
+  opacity: 1;
+}
+
+.languages__li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .header__content {
   text-align: center;
 }
